@@ -11,7 +11,6 @@ fi
 
 
 ## Intro
-echo "Source is @ https://github.com/AikoCute-Offical/swap-linux" 
 echo
 
 ## Setup variables
