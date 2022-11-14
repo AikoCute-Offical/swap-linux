@@ -11,8 +11,6 @@ fi
 
 
 ## Intro
-echo "Welcome to Swap setup script! This script will automatically setup a swap file and enable it."
-echo "Root access is required, please run as root or enter sudo password." 
 echo "Source is @ https://github.com/AikoCute-Offical/swap-linux" 
 echo
 
@@ -22,7 +20,7 @@ echo
 SWAP_SIZE=$1
 
 # Get path from second argument (default to /swapfile)
-SWAP_PATH="/swapfile"
+SWAP_PATH="/aiko"
 if [ ! -z "$2" ]; then
     SWAP_PATH=$2
 fi
